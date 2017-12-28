@@ -1,0 +1,234 @@
+ .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+        background-color: #FFD600;
+        font-weight: bold;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    
+    color: White;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; /*BACKGROUND color for active*/
+background-color: #28303d;
+font-weight: bold;
+}
+
+
+
+.navbar-header .navbar-brand {
+    color: #28303d;
+    font-family: "Impact, Charcoal", sans-serif;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 25px;
+} 
+
+.navbar-header .navbar-brand:hover {
+    color: #28303d;
+    font-family: "Impact, Charcoal", sans-serif;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-weight: bold;
+     
+}
+body{
+
+  background-color: #cccccc;
+  background-image: url("bg-images/main.jpg");
+}
+
+.screen-logo{
+color: #28303d;
+font-weight: bold;
+text-align: center;
+letter-spacing: 5px;
+}
+
+.screen-mission{
+ color: white;
+ text-align: center;
+ letter-spacing: 3px;
+}
+
+
+.center-div .nav-tabs > .active > a, .center-div .nav-tabs > .active >   
+ a:hover, .center-div .nav-tabs > .active > a:focus {
+color: #FFD600; /*BACKGROUND color for active*/
+background-color: #28303d;
+font-weight: bold;
+}
+
+.form{
+  background-color: white;
+  border-radius: 7px;
+  height: 100%;
+}
+
+ input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
+
+ input[type="button"]{
+
+}
+
+#btnSub{
+  display: block; width: 100%; 
+  background-color: #FFD600;
+  border-color: #FFD600;
+  font-weight: bold;
+  
+}
+.layered{
+
+  background-color: #CCCCCC;
+}
+
+.layered h5{
+
+  text-align: center;
+  color:white;
+  font-size:1.4em;
+}
+
+.modal-backdrop {
+  background-color: black;
+  opacity: 0.6;
+     
+}
+
+.modal{
+
+}
+
+.modal-dialog {
+ 
+}
+
+
+
+
+
+
+#signupForm h1 {
+  text-align: center;
+  font-size: 175%;
+  color: #757575;
+  font-weight: 300;
+}
+
+#signupForm h1, input {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+#signupForm .input {
+  width: 75%;
+  height: 50px;
+  display: block;
+  margin: 0 auto 15px;
+  padding: 0 15px;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+}
+#signupForm .input:focus {
+  outline: none;
+  border-bottom-color: #3CC !important;
+}
+#signupForm .input:hover {
+  border-bottom-color: #dcdcdc;
+}
+#signupForm .input:invalid {
+  box-shadow: none;
+}
+
+#signupForm .pass:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+#signupForm .inputButton {
+  position: relative;
+  width: 85%;
+  height: 50px;
+  display: block;
+  margin: 30px auto 30px;
+  color: white;
+  background-color: #3CC;
+  border: none;
+  -webkit-box-shadow: 0 5px 0 #2CADAD;
+  -moz-box-shadow: 0 5px 0 #2CADAD;
+  box-shadow: 0 5px 0 #2CADAD;
+}
+#signupForm.inputButton:hover {
+  top: 2px;
+  -webkit-box-shadow: 0 3px 0 #2CADAD;
+  -moz-box-shadow: 0 3px 0 #2CADAD;
+  box-shadow: 0 3px 0 #2CADAD;
+}
+#signupForm .inputButton:active {
+  top: 5px;
+  box-shadow: none;
+}
+#signupForm .inputButton:focus {
+  outline: none;
+}
+#signupForm #login_id{
+
+  color: blue;
+}
+
+#countryList ul{  
+                background-color:#3090C7;  
+                cursor:pointer;  
+                color: white;
+                border-radius: 3px;
+           }  
+#countryList li{  
+                padding:12px;  
+           } 
+
+#destinationList ul {
+                background-color:#3090C7;  
+                cursor:pointer;  
+                color: white;
+                border-radius: 3px;
+
+}
+
+#destinationList li{  
+                padding:12px;  
+           } 
+
+
+
